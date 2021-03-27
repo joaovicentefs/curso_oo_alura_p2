@@ -1,4 +1,4 @@
-from model import  Filme, Serie
+from model import Filme, Serie
 
 filme = Filme('vingadores - guerra infinita', 2018, 160)
 filme.dar_like()
