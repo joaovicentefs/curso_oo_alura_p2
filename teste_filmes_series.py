@@ -14,4 +14,4 @@ filmes_e_series = [vingadores, atltanta]
 for programa in filmes_e_series:
       # detalhes = programa.duracao if hasattr(programa, 'duracao') else programa.temporadas
       # print(f'{programa.nome} - {detalhes} D - {programa.likes}')
-      programa.imprime()
+      print(programa)
