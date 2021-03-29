@@ -39,3 +39,12 @@ class Serie(Programa):
 
     def __str__(self):
         return f'{self._nome} - {self.ano} - {self.temporadas} temporadas - {self._likes} Likes'
+
+
+class Playlist:
+    def __init__(self, nome, programas):
+        self.nome = nome
+        self.programas = programas
+
+    def tamanho(self):
+        return len(self.programas)
