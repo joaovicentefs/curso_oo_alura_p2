@@ -14,11 +14,12 @@ the_office.dar_like()
 the_office.dar_like()
 the_office.dar_like()
 
-#Aula do modulo 3, aula 2, polimorfismo
-
 filmes_e_series = [vingadores, atlanta, titanic, the_office]
 playlist_fds = Playlist('fim de semana', filmes_e_series)
-for programa in playlist_fds.programas:
+
+print(f'Tamnanho da Playlist: {len(playlist_fds)}')
+
+for programa in playlist_fds:
       # detalhes = programa.duracao if hasattr(programa, 'duracao') else programa.temporadas
       # print(f'{programa.nome} - {detalhes} D - {programa.likes}')
       print(programa)
