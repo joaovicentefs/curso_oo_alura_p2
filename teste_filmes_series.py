@@ -17,9 +17,9 @@ the_office.dar_like()
 filmes_e_series = [vingadores, atlanta, titanic, the_office]
 playlist_fds = Playlist('fim de semana', filmes_e_series)
 
-print(f'Tamnanho da Playlist: {len(playlist_fds.listagem)}')
+print(f'Tamnanho da Playlist: {len(playlist_fds)}')
 
-for programa in playlist_fds.listagem:
+for programa in playlist_fds:
       # detalhes = programa.duracao if hasattr(programa, 'duracao') else programa.temporadas
       # print(f'{programa.nome} - {detalhes} D - {programa.likes}')
       print(programa)
